@@ -1,4 +1,4 @@
-from operacoes import Divisao, Soma, Subtracao
+from operacoes import Divisao, Soma, Subtracao, Multiplicacao
 
 
 class OperacaoFabrica():
@@ -9,3 +9,5 @@ class OperacaoFabrica():
             return Soma()
         elif operador == "subtracao":
             return Subtracao()
+        elif operador == "multiplicacao":
+            return Multiplicacao()

@@ -23,3 +23,9 @@ class Subtracao(Operacao):
     def executar(self, valor1, valor2):
         resultado_subtracao = valor1 - valor2
         return resultado_subtracao
+
+
+class Multiplicacao(Operacao):
+    def executar(self, valor1, valor2):
+        resultado_multiplicacao = valor1 * valor2
+        return resultado_multiplicacao

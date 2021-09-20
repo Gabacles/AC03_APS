@@ -18,6 +18,11 @@ class TestesCalculadora(unittest.TestCase):
         resultadodivisao = calcula.calcular(50, 2, "divisao")
         self.assertEqual(resultadodivisao, 25)
 
+    def teste_multiplicacao(self):
+        calcula = Calculadora()
+        resultadomultiplicacao = calcula.calcular(5, 5, "multiplicacao")
+        self.assertEqual(resultadomultiplicacao, 25)
+
     def teste_erro_de_operador(self):
         calcula = Calculadora()
         resultadodivisao = calcula.calcular(50, 2, "divis")
